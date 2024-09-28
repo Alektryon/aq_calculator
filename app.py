@@ -91,6 +91,9 @@ html(meta_tags, height=0)
 
 st.title("Alphanumeric Qabbala Calculator")
 
+# Centered links and text
+st.markdown('<div style="text-align: center;"><small>For more tools and information see: <a href="https://alektryon.github.io/gematro/" target="_blank">https://alektryon.github.io/gematro/</a></small></div>', unsafe_allow_html=True)
+
 # Add a toggle button for prose or poetry
 mode = st.radio("Select mode:", ('Poetry (calculates by line breaks)', 'Prose (calculates by end of sentence)'))
 
